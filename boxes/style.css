@@ -1,0 +1,42 @@
+
+.navigation {
+  font-family: Optima;
+  font-size:23px;
+}
+
+
+.container {
+
+  display: grid;
+
+  width: 900px;
+  height: 900px
+  position: absolute;
+  margin: auto;
+  grid-gap: 10px;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+}
+
+h1, h2, h3 {
+  font-family: monospace;
+  text-align: center;
+}
+
+
+.left {
+  background-color: dodgerblue;
+  grid-area: 4 / 3 / 9 / 8;
+}
+
+
+
+.overlap {
+  background-color: lightcoral;
+  grid-area: 6 / 6 / 11 / 11;
+  z-index:5;
+}
+
+.sidebar {
+  background-color: yellow;
+  grid-area: 3 / 1 / 8 / 2;
+}
