@@ -8,7 +8,7 @@ var speed0 = 20;
 
 
 (function () {
-  document.body.style.zoom="90%";
+  document.body.style.zoom="78%";
   setModeEventListener();
   setRandomLinkColor();
   setColorHoverListener();
