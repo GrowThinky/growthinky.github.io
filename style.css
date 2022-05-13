@@ -324,7 +324,7 @@ tr td:nth-child(2) {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .links {
     text-align: center;
   }
