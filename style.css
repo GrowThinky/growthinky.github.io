@@ -197,6 +197,7 @@ button:hover {
 
 .container.right {
   width: 600px;
+  padding-right: 5px;
   margin-left: 25px;
   position: relative;
   height: 960px;
