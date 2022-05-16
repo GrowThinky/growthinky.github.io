@@ -104,6 +104,10 @@ row-gap: 10px;
   font-size: 1em;
 }
 
+.info.more.show > div > p  {
+  padding-right: 5px;
+}
+
 .info.long.show > i{
   justify-content: center;
   text-align: center;
