@@ -105,8 +105,8 @@ row-gap: 10px;
   padding-right: 5px;
 }
 
-.info.more.show > div > p  {
-  padding-right: 5px;
+.info.more.show > div  {
+  padding-right: 10px;
 }
 
 .info.long.show > i{
