@@ -5,7 +5,7 @@ body {
   padding: 0;
   overflow-y: scroll;
   scrollbar-width: none;
-  
+
 
 
 body::-webkit-scrollbar {
@@ -204,7 +204,7 @@ button:hover {
   margin-right: 25px;
   height: 720px;
   overflow: hidden;
-
+  /* border: 1px white solid; */
 
 
 }
@@ -218,14 +218,14 @@ button:hover {
   align-items: center;
   overflow: auto;
 
-  
+
 
   /*border: 3px white solid; */
 }
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .container {
     padding: 20px;
   }
@@ -370,7 +370,7 @@ tr td:nth-child(2) {
     margin-right: auto;
     margin-left: 85px;
     float: left;
-    height: 500px;
+    height: 520px;
     vertical-align: middle;
   }
   .container.right {
@@ -403,7 +403,7 @@ tr td:nth-child(2) {
  .info {
    display: block;  /* changed these prob no effect*/
     margin-left:45px;
-    /*border: 1px white solid;*/
+
   }
   .proj {
     margin-left: 40px;
