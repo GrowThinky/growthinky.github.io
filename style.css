@@ -177,25 +177,18 @@ button:hover {
 .main {
   margin: 50px auto;
   padding: 5px;
-
-
+  /*border: 1px white solid; */
+  padding-bottom: 100px;
   /* removed height here */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-
-
 }
 
 .container {
   margin: 15px auto;
   padding: 5px;
   height: 100vh;
-
-
-
-
 
 }
 
@@ -212,15 +205,13 @@ button:hover {
 
 .container.right {
   width: 600px;
-  padding-right: 25px;
+  padding-right: 100px;
+  padding-bottom: 150px;
   margin-left: 25px;
   position: relative;
   height: 960px;
   align-items: center;
   overflow: auto;
-  
-
-
 
   /*border: 3px white solid; */
 }
