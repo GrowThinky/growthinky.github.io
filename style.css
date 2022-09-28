@@ -6,9 +6,7 @@ body {
   overflow-y: scroll;
   scrollbar-width: none;
 
-
-
-body::-webkit-scrollbar {
+body:-webkit-scrollbar {
   width: 0;
   height: 0;
 }
@@ -47,7 +45,7 @@ row-gap: 10px;
 */
 
  .info.long {
-   margin: 50px auto;
+   margin: 50px auto ;
    padding: 5px ;
    padding-left: 5px;
    width: 600px;
@@ -69,7 +67,7 @@ row-gap: 10px;
   padding-top:10px;
   transition: 0.4s ease all;
   justify-content: center;
-  /*border: 1px blue solid; */
+
   position: relative;
   z-index: -1;
   align-items: center;
@@ -105,6 +103,7 @@ row-gap: 10px;
   margin-top: 45px;
   margin-bottom: 15px;
   margin-left: 20px;
+
 
 }
 
@@ -179,6 +178,7 @@ button:hover {
   margin: 50px auto;
   padding: 5px;
 
+
   /* removed height here */
   display: flex;
   flex-direction: row;
@@ -192,6 +192,7 @@ button:hover {
   margin: 15px auto;
   padding: 5px;
   height: 100vh;
+
 
 
 
@@ -211,12 +212,13 @@ button:hover {
 
 .container.right {
   width: 600px;
-  padding-right: 5px;
+  padding-right: 25px;
   margin-left: 25px;
   position: relative;
   height: 960px;
   align-items: center;
   overflow: auto;
+  
 
 
 
