@@ -16,7 +16,7 @@ var speed0 = 20;
   infoToggle({ target: document.getElementById("short") });
 
   setInterval(() => {
-    setRandomPhoto();
+    setNextPhoto();
   }, 5000);
 
   setInterval(() => {
@@ -57,9 +57,12 @@ function setColorHoverListener() {
 
 /* Photos */
 
-function setRandomPhoto() {
-  let num = Math.floor(Math.random() * 4) + 1;
-  document.getElementById("propic").src = `face${num}.jpg`;
+let photos = ["images/face1.jpg", "images/face2.jpg", "images/face3.jpg"];
+let photoIndex = 0;
+
+function setNextPhoto() {
+  photoIndex = (photoIndex + 1) % photos.length;
+  document.getElementById("propic").src = photos[photoIndex];
 }
 
 /* Bio Toggles */
