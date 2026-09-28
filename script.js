@@ -57,7 +57,7 @@ function setColorHoverListener() {
 
 /* Photos */
 
-let photos = ["images/face1.jpg", "images/face2.jpg", "images/face3.jpg"];
+let photos = ["images/face1.jpg", "images/face2.jpg", "images/face3.jpg", "images/face4.jpg"];
 let photoIndex = 0;
 
 function setNextPhoto() {
