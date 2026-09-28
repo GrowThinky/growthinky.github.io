@@ -1,7 +1,7 @@
 let colors = ["#faa1ac", "#A0E7E5", "#B4F8C8", "#7685b1","#FBE7C6"];
 var i = 0;
 var txt1 = "Hi, my name is";
-var txt = "I'm a programmer based in Marburg, Germany."; /* The text */
+var txt = "I'm a programmer based in Bavaria, Germany."; /* The text */
 var txt0 = "Christoph Heindl";
 var speed = 30; /* The speed/duration of the effect in milliseconds */
 var speed0 = 20;
@@ -13,6 +13,7 @@ var speed0 = 20;
   setRandomLinkColor();
   setColorHoverListener();
   setInfoEventListener();
+  infoToggle({ target: document.getElementById("short") });
 
   setInterval(() => {
     setRandomPhoto();
